@@ -145,7 +145,7 @@ The system improves the accuracy and relevance of document retrieval by using co
 For more details and a hands-on experience, visit the **[Context Enrichment Window Around Chunks Using LlamaIndex Project](https://www.aionlinecourse.com/ai-projects/playground/context-enrichment-window-around-chunks-using-llamaindex)** on AI Projects.
 
 ---
-### **9 [Graph-Enhanced Retrieval-Augmented Generation (GRAPH-RAG)]()**
+### **9 [Graph-Enhanced Retrieval-Augmented Generation (GRAPH-RAG)](https://www.aionlinecourse.com/ai-projects/playground/graph-enhanced-retrieval-augmented-generation-graph-rag)**
 
 #### **Project Overview**  
 The GraphRAG project improves document retrieval and query answering by integrating vector search, BM25, and knowledge graph traversal. The system processes large document datasets, splitting them into context-aware chunks, generating embeddings, and storing them in a FAISS vector store. A knowledge graph is constructed based on content similarity, enabling efficient document querying and response generation. The system leverages large language models (LLMs) to fill in any missing context and provide comprehensive answers. A visualization tool allows users to see the traversal path, making the process transparent.
@@ -164,7 +164,7 @@ The GRAPH-RAG system successfully enhances document retrieval accuracy by combin
 For more details and a hands-on experience, visit the **[Graph-Enhanced Retrieval-Augmented Generation Project](https://www.aionlinecourse.com/ai-projects/playground/graph-enhanced-retrieval-augmented-generation-graph-rag)** on AI Projects.
 
 ---
-### **10. [Enhancing Document Retrieval with Contextual Overlapping Windows](https://www.aionlinecourse.com/ai-projects/playground/document-augmentation-through-question-generation-for-enhanced-retrieval)**
+### **10. [Enhancing Document Retrieval with Contextual Overlapping Windows](https://www.aionlinecourse.com/ai-projects/playground/enhancing-document-retrieval-with-contextual-overlapping-windows)**
 
 #### **Project Overview**  
 This project enhances document retrieval by incorporating contextually overlapping windows in a vector database, improving search results and providing more coherent, complete answers. Traditional retrieval methods often return isolated text chunks that lack sufficient context, which can make the information harder to interpret. This approach solves that problem by adding surrounding context to the retrieved text, making the results more comprehensive and relevant.
@@ -181,24 +181,26 @@ The system processes PDF documents, breaks them into text chunks, and uses OpenA
 #### **Project Outcome**  
 The system successfully enhances document retrieval by adding contextually overlapping windows around text chunks, improving the coherence and completeness of retrieved information. It is ideal for applications that require deep document understanding, such as academic research, legal analysis, and AI-driven question answering.
 
-For more details and a hands-on experience, visit the **[Contextually Enhanced Document Retrieval Project](https://www.aionlinecourse.com/ai-projects/playground/document-augmentation-through-question-generation-for-enhanced-retrieval)** on AI Projects.
+For more details and a hands-on experience, visit the **[Contextually Enhanced Document Retrieval Project](https://www.aionlinecourse.com/ai-projects/playground/enhancing-document-retrieval-with-contextual-overlapping-windows)** on AI Projects.
 
 ---
-### **11. [Enhancing Document Retrieval with Contextual Overlapping Windows](https://www.aionlinecourse.com/ai-projects/playground/enhancing-document-retrieval-with-contextual-overlapping-windows)**
+### **11. [Document Augmentation through Question Generation for Enhanced Retrieval](https://www.aionlinecourse.com/ai-projects/playground/document-augmentation-through-question-generation-for-enhanced-retrieval)**
 
-#### **Project Overview**  
-This project enhances document retrieval by adding contextually overlapping windows in a vector database. Traditional vector search methods often return isolated text chunks, which may lack context, making it harder to understand. By adding surrounding context to the retrieved chunks, this approach improves the coherence and completeness of search results. The system uses PDF processing, text chunking, FAISS, and OpenAI embeddings to create a vector store, and a custom retrieval function fetches relevant chunks with added context, offering a better alternative to traditional methods.
+**Project Overview**  
+This project focuses on enhancing document retrieval through text augmentation via question generation. The goal is to improve document search systems by generating additional questions from text content, which increases the chances of retrieving the most relevant text fragments. These fragments then serve as the context for generative question-answering tasks using OpenAI's language models to produce answers from documents.
 
-#### **Key Features**  
-- **Contextual Search:** Retrieves relevant text along with surrounding context, providing more coherent answers.
-- **FAISS Vector Store:** Fast similarity-based search using OpenAI embeddings for semantic accuracy.
-- **Custom Retrieval Function:** Fetches text with surrounding context for enhanced results.
-- **Comparison with Traditional Search:** Demonstrates the benefits of context-aware retrieval over standard methods.
+The system works by automatically generating questions from document fragments, augmenting the document content. FAISS is used to create a vector store where the document fragments and generated questions are embedded for efficient similarity search. When a user query is made, the system retrieves the most relevant fragments and generates an accurate, context-aware answer based on those fragments.
 
-#### **Project Outcome**  
-The system successfully improves document retrieval by incorporating contextually overlapping windows around text chunks, leading to more complete and coherent answers. This method is ideal for applications requiring deep document understanding, such as academic research, legal analysis, and AI-driven question answering.
+**Key Features**  
+- **Text Augmentation:** Automatically generates questions from document content to improve the retrieval process.
+- **Enhanced Retrieval:** Uses FAISS for efficient search based on document fragments and augmented questions.
+- **Generative Question-Answering:** Utilizes OpenAI's GPT-4 model to answer queries contextually based on the retrieved fragments.
+- **Optimized Retrieval:** The approach ensures more relevant and precise answers by enhancing document retrieval with additional context.
 
-For more details and a hands-on experience, visit the **[Contextual Document Retrieval Project](https://www.aionlinecourse.com/ai-projects/playground/enhancing-document-retrieval-with-contextual-overlapping-windows)** on AI Projects.
+**Project Outcome**  
+The system enriches document retrieval by improving the search process, ensuring more relevant and contextually accurate answers. By leveraging OpenAI's language models and vector search with FAISS, this method provides an enhanced and efficient solution for document search, especially useful in domains like research, customer support, and AI-driven Q&A systems.
+
+For more details, try out the **[Document Augmentation System](https://www.aionlinecourse.com/ai-projects/playground/document-augmentation-through-question-generation-for-enhanced-retrieval)** on AI Projects.
 
 ---
 ### **12. [Corrective Retrieval-Augmented Generation (CRAG) with Dynamic Adjustments](https://www.aionlinecourse.com/ai-projects/playground/corrective-retrieval-augmented-generation-rag-with-dynamic-adjustments)**
